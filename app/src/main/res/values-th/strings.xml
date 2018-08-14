@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Tawan Api Chat Application</string>
+    <string name="login_">เข้าสู่ระบบ</string>
+    <string name="main_room">ห้องแชทหลัก</string>
+    <string name="sign_in">ลงชื่อเข้าใช้</string>
+    <string name="enter_name">ใส่ชื่อที่นี่</string>
+    <string name="send_">ส่ง</string>
+    <string name="enter_msg">ข้อความ</string>
+</resources>

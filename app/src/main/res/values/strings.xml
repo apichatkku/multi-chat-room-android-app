@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name" translatable="false">Tawan Api Chat Application</string>
+    <string name="login_">Login</string>
+    <string name="main_room">Main Room</string>
+    <string name="sign_in">Sign In</string>
+    <string name="enter_name">Enter your name</string>
+    <string name="send_">Send</string>
+    <string name="enter_msg">Message</string>
+</resources>
