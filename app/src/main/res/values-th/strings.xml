@@ -6,4 +6,11 @@
     <string name="enter_name">ใส่ชื่อที่นี่</string>
     <string name="send_">ส่ง</string>
     <string name="enter_msg">ข้อความ</string>
+    <string name="chat_nav">แชท</string>
+    <string name="see_online_nav">ผู้ใช้งาน</string>
+    <string name="room_nav">ห้อง</string>
+    <string name="member_list">รายชื่อผู้ใช้งาน</string>
+    <string name="room_list">รายชื่อห้อง</string>
+    <string name="create_">สร้าง</string>
+    <string name="join_">เข้าร่วม</string>
 </resources>

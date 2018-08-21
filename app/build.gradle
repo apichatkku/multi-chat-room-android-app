@@ -29,4 +29,6 @@ dependencies {
     implementation('com.github.nkzawa:socket.io-client:0.5.0') {
         exclude group: 'org.json', module: 'json'
     }
+    implementation 'com.android.support:support-v4:27.1.1'
+    implementation 'com.android.support:design:27.1.1'
 }

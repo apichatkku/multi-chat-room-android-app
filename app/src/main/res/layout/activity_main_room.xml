@@ -7,69 +7,6 @@
     android:layout_height="match_parent">
 
     <android.support.constraint.ConstraintLayout
-        android:id="@+id/constraintLayout"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:background="@android:drawable/dialog_holo_light_frame"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/constraintLayout2">
-
-        <android.support.v7.widget.RecyclerView
-            android:id="@+id/rv_chat_box"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_marginEnd="8dp"
-            android:layout_marginStart="8dp"
-            android:background="#eaeaea"
-            app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="1.0" />
-
-        <LinearLayout
-            android:id="@+id/linearLayout2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="8dp"
-            android:layout_marginEnd="8dp"
-            android:layout_marginLeft="8dp"
-            android:layout_marginRight="8dp"
-            android:layout_marginStart="8dp"
-            android:orientation="horizontal"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintStart_toStartOf="parent">
-
-            <EditText
-                android:id="@+id/et_msg"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:ems="10"
-                android:hint="@string/enter_msg"
-                android:inputType="textPersonName" />
-
-            <Button
-                android:id="@+id/btn_send"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="0"
-                android:background="@android:color/holo_blue_dark"
-                android:paddingLeft="0dp"
-                android:paddingRight="0dp"
-                tools:text="@string/send_" />
-        </LinearLayout>
-
-    </android.support.constraint.ConstraintLayout>
-
-    <android.support.constraint.ConstraintLayout
         android:id="@+id/constraintLayout2"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -97,4 +34,26 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
     </android.support.constraint.ConstraintLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_content"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        app:layout_constraintBottom_toTopOf="@+id/bnv_nav_page_menu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout2" />
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/bnv_nav_page_menu"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_dark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/my_bottom_nav_menu" />
+
 </android.support.constraint.ConstraintLayout>
